@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SplitIO-Cocoapods' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SplitIO-Cocoapods
+  pod 'Split', '~> 2.18.2'
+
+  target 'SplitIO-CocoapodsTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SplitIO-CocoapodsUITests' do
+    # Pods for testing
+  end
+  
+  target 'SplitIO-Cocoapods-Extensions' do
+    pod 'Split', '~> 2.18.2'
+  end
+
+end

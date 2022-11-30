@@ -1,0 +1,6 @@
+framework module Pods_SplitIO_CocoapodsTests {
+  umbrella header "Pods-SplitIO-CocoapodsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

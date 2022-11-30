@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_SplitIO_Cocoapods_SplitIO_Cocoapods_Extensions : NSObject
+@end
+@implementation PodsDummy_Pods_SplitIO_Cocoapods_SplitIO_Cocoapods_Extensions
+@end

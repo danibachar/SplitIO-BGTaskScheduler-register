@@ -1,0 +1,16 @@
+PODS:
+  - Split (2.18.2)
+
+DEPENDENCIES:
+  - Split (~> 2.18.2)
+
+SPEC REPOS:
+  trunk:
+    - Split
+
+SPEC CHECKSUMS:
+  Split: 8aa6f83bd99f5f2d00f9b105bc87c81925a39d4c
+
+PODFILE CHECKSUM: 5f8dd1aa8870b2928dee183a240b52fd450610c8
+
+COCOAPODS: 1.11.3

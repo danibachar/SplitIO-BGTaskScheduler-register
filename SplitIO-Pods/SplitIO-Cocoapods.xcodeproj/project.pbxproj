@@ -1,0 +1,964 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		275F7B522937C2FB005ADCC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F7B512937C2FB005ADCC0 /* AppDelegate.swift */; };
+		275F7B542937C2FB005ADCC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F7B532937C2FB005ADCC0 /* SceneDelegate.swift */; };
+		275F7B562937C2FB005ADCC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F7B552937C2FB005ADCC0 /* ViewController.swift */; };
+		275F7B592937C2FB005ADCC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275F7B572937C2FB005ADCC0 /* Main.storyboard */; };
+		275F7B5B2937C2FC005ADCC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275F7B5A2937C2FC005ADCC0 /* Assets.xcassets */; };
+		275F7B5E2937C2FC005ADCC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275F7B5C2937C2FC005ADCC0 /* LaunchScreen.storyboard */; };
+		275F7B692937C2FC005ADCC0 /* SplitIO_CocoapodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F7B682937C2FC005ADCC0 /* SplitIO_CocoapodsTests.swift */; };
+		275F7B732937C2FD005ADCC0 /* SplitIO_CocoapodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F7B722937C2FD005ADCC0 /* SplitIO_CocoapodsUITests.swift */; };
+		275F7B752937C2FD005ADCC0 /* SplitIO_CocoapodsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F7B742937C2FD005ADCC0 /* SplitIO_CocoapodsUITestsLaunchTests.swift */; };
+		275F7B872937C3AA005ADCC0 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275F7B862937C3AA005ADCC0 /* Messages.framework */; };
+		275F7B8A2937C3AA005ADCC0 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F7B892937C3AA005ADCC0 /* MessagesViewController.swift */; };
+		275F7B8D2937C3AA005ADCC0 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275F7B8B2937C3AA005ADCC0 /* MainInterface.storyboard */; };
+		275F7B8F2937C3AB005ADCC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275F7B8E2937C3AB005ADCC0 /* Assets.xcassets */; };
+		275F7B932937C3AB005ADCC0 /* SplitIO-Cocoapods-Extensions.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 275F7B852937C3AA005ADCC0 /* SplitIO-Cocoapods-Extensions.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2DF2C0F53686BBA6646B91C4 /* Pods_SplitIO_Cocoapods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A402A3B466A369379A8FCF /* Pods_SplitIO_Cocoapods.framework */; };
+		4509BF402A79AF8EA322AA2D /* Pods_SplitIO_Cocoapods_SplitIO_CocoapodsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 325A2A387224657A3EEC7766 /* Pods_SplitIO_Cocoapods_SplitIO_CocoapodsUITests.framework */; };
+		9233CC6551D21ADC8AA1DD86 /* Pods_SplitIO_Cocoapods_SplitIO_Cocoapods_Extensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3E0BE20A1220F4609062FF /* Pods_SplitIO_Cocoapods_SplitIO_Cocoapods_Extensions.framework */; };
+		AD8264822C0D805067EA5ACF /* Pods_SplitIO_CocoapodsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEB8682E62A4889B1BDE5D4 /* Pods_SplitIO_CocoapodsTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		275F7B652937C2FC005ADCC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 275F7B462937C2FB005ADCC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 275F7B4D2937C2FB005ADCC0;
+			remoteInfo = "SplitIO-Cocoapods";
+		};
+		275F7B6F2937C2FD005ADCC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 275F7B462937C2FB005ADCC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 275F7B4D2937C2FB005ADCC0;
+			remoteInfo = "SplitIO-Cocoapods";
+		};
+		275F7B912937C3AB005ADCC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 275F7B462937C2FB005ADCC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 275F7B842937C3AA005ADCC0;
+			remoteInfo = "SplitIO-Cocoapods-Extensions";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		275F7B942937C3AB005ADCC0 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				275F7B932937C3AB005ADCC0 /* SplitIO-Cocoapods-Extensions.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03AB8FDF38F62BADF34A3494 /* Pods-SplitIO-Cocoapods-SplitIO-CocoapodsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitIO-Cocoapods-SplitIO-CocoapodsUITests.release.xcconfig"; path = "Target Support Files/Pods-SplitIO-Cocoapods-SplitIO-CocoapodsUITests/Pods-SplitIO-Cocoapods-SplitIO-CocoapodsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0678FCA69F7168494A7E188A /* Pods-SplitIO-Cocoapods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitIO-Cocoapods.release.xcconfig"; path = "Target Support Files/Pods-SplitIO-Cocoapods/Pods-SplitIO-Cocoapods.release.xcconfig"; sourceTree = "<group>"; };
+		1AEB8682E62A4889B1BDE5D4 /* Pods_SplitIO_CocoapodsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplitIO_CocoapodsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		275F7B4E2937C2FB005ADCC0 /* SplitIO-Cocoapods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SplitIO-Cocoapods.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		275F7B512937C2FB005ADCC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		275F7B532937C2FB005ADCC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		275F7B552937C2FB005ADCC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		275F7B582937C2FB005ADCC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		275F7B5A2937C2FC005ADCC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		275F7B5D2937C2FC005ADCC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		275F7B5F2937C2FC005ADCC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		275F7B642937C2FC005ADCC0 /* SplitIO-CocoapodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SplitIO-CocoapodsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		275F7B682937C2FC005ADCC0 /* SplitIO_CocoapodsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitIO_CocoapodsTests.swift; sourceTree = "<group>"; };
+		275F7B6E2937C2FD005ADCC0 /* SplitIO-CocoapodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SplitIO-CocoapodsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		275F7B722937C2FD005ADCC0 /* SplitIO_CocoapodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitIO_CocoapodsUITests.swift; sourceTree = "<group>"; };
+		275F7B742937C2FD005ADCC0 /* SplitIO_CocoapodsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitIO_CocoapodsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		275F7B852937C3AA005ADCC0 /* SplitIO-Cocoapods-Extensions.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SplitIO-Cocoapods-Extensions.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		275F7B862937C3AA005ADCC0 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		275F7B892937C3AA005ADCC0 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		275F7B8C2937C3AA005ADCC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		275F7B8E2937C3AB005ADCC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		275F7B902937C3AB005ADCC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B6F05EBC76CE087C4A2A33C /* Pods-SplitIO-CocoapodsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitIO-CocoapodsTests.debug.xcconfig"; path = "Target Support Files/Pods-SplitIO-CocoapodsTests/Pods-SplitIO-CocoapodsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F1053EE14FEA00E14DE5FC5 /* Pods-SplitIO-Cocoapods-SplitIO-Cocoapods-Extensions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitIO-Cocoapods-SplitIO-Cocoapods-Extensions.release.xcconfig"; path = "Target Support Files/Pods-SplitIO-Cocoapods-SplitIO-Cocoapods-Extensions/Pods-SplitIO-Cocoapods-SplitIO-Cocoapods-Extensions.release.xcconfig"; sourceTree = "<group>"; };
+		325A2A387224657A3EEC7766 /* Pods_SplitIO_Cocoapods_SplitIO_CocoapodsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplitIO_Cocoapods_SplitIO_CocoapodsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A165FF7E7D12AD9EAE9934 /* Pods-SplitIO-CocoapodsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitIO-CocoapodsTests.release.xcconfig"; path = "Target Support Files/Pods-SplitIO-CocoapodsTests/Pods-SplitIO-CocoapodsTests.release.xcconfig"; sourceTree = "<group>"; };
+		902AF78CE7FE3952FCCB509B /* Pods-SplitIO-Cocoapods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitIO-Cocoapods.debug.xcconfig"; path = "Target Support Files/Pods-SplitIO-Cocoapods/Pods-SplitIO-Cocoapods.debug.xcconfig"; sourceTree = "<group>"; };
+		9CB9832F6E60A2EBA873FEA2 /* Pods-SplitIO-Cocoapods-SplitIO-Cocoapods-Extensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitIO-Cocoapods-SplitIO-Cocoapods-Extensions.debug.xcconfig"; path = "Target Support Files/Pods-SplitIO-Cocoapods-SplitIO-Cocoapods-Extensions/Pods-SplitIO-Cocoapods-SplitIO-Cocoapods-Extensions.debug.xcconfig"; sourceTree = "<group>"; };
+		D18484B114012A61331C3A95 /* Pods-SplitIO-Cocoapods-SplitIO-CocoapodsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitIO-Cocoapods-SplitIO-CocoapodsUITests.debug.xcconfig"; path = "Target Support Files/Pods-SplitIO-Cocoapods-SplitIO-CocoapodsUITests/Pods-SplitIO-Cocoapods-SplitIO-CocoapodsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4A402A3B466A369379A8FCF /* Pods_SplitIO_Cocoapods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplitIO_Cocoapods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3E0BE20A1220F4609062FF /* Pods_SplitIO_Cocoapods_SplitIO_Cocoapods_Extensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplitIO_Cocoapods_SplitIO_Cocoapods_Extensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		275F7B4B2937C2FB005ADCC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF2C0F53686BBA6646B91C4 /* Pods_SplitIO_Cocoapods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275F7B612937C2FC005ADCC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8264822C0D805067EA5ACF /* Pods_SplitIO_CocoapodsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275F7B6B2937C2FD005ADCC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4509BF402A79AF8EA322AA2D /* Pods_SplitIO_Cocoapods_SplitIO_CocoapodsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275F7B822937C3AA005ADCC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275F7B872937C3AA005ADCC0 /* Messages.framework in Frameworks */,
+				9233CC6551D21ADC8AA1DD86 /* Pods_SplitIO_Cocoapods_SplitIO_Cocoapods_Extensions.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		275F7B452937C2FB005ADCC0 = {
+			isa = PBXGroup;
+			children = (
+				275F7B502937C2FB005ADCC0 /* SplitIO-Cocoapods */,
+				275F7B672937C2FC005ADCC0 /* SplitIO-CocoapodsTests */,
+				275F7B712937C2FD005ADCC0 /* SplitIO-CocoapodsUITests */,
+				275F7B882937C3AA005ADCC0 /* SplitIO-Cocoapods-Extensions */,
+				275F7B4F2937C2FB005ADCC0 /* Products */,
+				8AA3F6BB6F3EEF73279472E1 /* Pods */,
+				4274969ED30B92CD3B2E8370 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		275F7B4F2937C2FB005ADCC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				275F7B4E2937C2FB005ADCC0 /* SplitIO-Cocoapods.app */,
+				275F7B642937C2FC005ADCC0 /* SplitIO-CocoapodsTests.xctest */,
+				275F7B6E2937C2FD005ADCC0 /* SplitIO-CocoapodsUITests.xctest */,
+				275F7B852937C3AA005ADCC0 /* SplitIO-Cocoapods-Extensions.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		275F7B502937C2FB005ADCC0 /* SplitIO-Cocoapods */ = {
+			isa = PBXGroup;
+			children = (
+				275F7B512937C2FB005ADCC0 /* AppDelegate.swift */,
+				275F7B532937C2FB005ADCC0 /* SceneDelegate.swift */,
+				275F7B552937C2FB005ADCC0 /* ViewController.swift */,
+				275F7B572937C2FB005ADCC0 /* Main.storyboard */,
+				275F7B5A2937C2FC005ADCC0 /* Assets.xcassets */,
+				275F7B5C2937C2FC005ADCC0 /* LaunchScreen.storyboard */,
+				275F7B5F2937C2FC005ADCC0 /* Info.plist */,
+			);
+			path = "SplitIO-Cocoapods";
+			sourceTree = "<group>";
+		};
+		275F7B672937C2FC005ADCC0 /* SplitIO-CocoapodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				275F7B682937C2FC005ADCC0 /* SplitIO_CocoapodsTests.swift */,
+			);
+			path = "SplitIO-CocoapodsTests";
+			sourceTree = "<group>";
+		};
+		275F7B712937C2FD005ADCC0 /* SplitIO-CocoapodsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				275F7B722937C2FD005ADCC0 /* SplitIO_CocoapodsUITests.swift */,
+				275F7B742937C2FD005ADCC0 /* SplitIO_CocoapodsUITestsLaunchTests.swift */,
+			);
+			path = "SplitIO-CocoapodsUITests";
+			sourceTree = "<group>";
+		};
+		275F7B882937C3AA005ADCC0 /* SplitIO-Cocoapods-Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				275F7B892937C3AA005ADCC0 /* MessagesViewController.swift */,
+				275F7B8B2937C3AA005ADCC0 /* MainInterface.storyboard */,
+				275F7B8E2937C3AB005ADCC0 /* Assets.xcassets */,
+				275F7B902937C3AB005ADCC0 /* Info.plist */,
+			);
+			path = "SplitIO-Cocoapods-Extensions";
+			sourceTree = "<group>";
+		};
+		4274969ED30B92CD3B2E8370 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4A402A3B466A369379A8FCF /* Pods_SplitIO_Cocoapods.framework */,
+				325A2A387224657A3EEC7766 /* Pods_SplitIO_Cocoapods_SplitIO_CocoapodsUITests.framework */,
+				1AEB8682E62A4889B1BDE5D4 /* Pods_SplitIO_CocoapodsTests.framework */,
+				275F7B862937C3AA005ADCC0 /* Messages.framework */,
+				EF3E0BE20A1220F4609062FF /* Pods_SplitIO_Cocoapods_SplitIO_Cocoapods_Extensions.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AA3F6BB6F3EEF73279472E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				902AF78CE7FE3952FCCB509B /* Pods-SplitIO-Cocoapods.debug.xcconfig */,
+				0678FCA69F7168494A7E188A /* Pods-SplitIO-Cocoapods.release.xcconfig */,
+				D18484B114012A61331C3A95 /* Pods-SplitIO-Cocoapods-SplitIO-CocoapodsUITests.debug.xcconfig */,
+				03AB8FDF38F62BADF34A3494 /* Pods-SplitIO-Cocoapods-SplitIO-CocoapodsUITests.release.xcconfig */,
+				2B6F05EBC76CE087C4A2A33C /* Pods-SplitIO-CocoapodsTests.debug.xcconfig */,
+				57A165FF7E7D12AD9EAE9934 /* Pods-SplitIO-CocoapodsTests.release.xcconfig */,
+				9CB9832F6E60A2EBA873FEA2 /* Pods-SplitIO-Cocoapods-SplitIO-Cocoapods-Extensions.debug.xcconfig */,
+				2F1053EE14FEA00E14DE5FC5 /* Pods-SplitIO-Cocoapods-SplitIO-Cocoapods-Extensions.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		275F7B4D2937C2FB005ADCC0 /* SplitIO-Cocoapods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 275F7B782937C2FD005ADCC0 /* Build configuration list for PBXNativeTarget "SplitIO-Cocoapods" */;
+			buildPhases = (
+				7633811C6EC009FD8544E1A9 /* [CP] Check Pods Manifest.lock */,
+				275F7B4A2937C2FB005ADCC0 /* Sources */,
+				275F7B4B2937C2FB005ADCC0 /* Frameworks */,
+				275F7B4C2937C2FB005ADCC0 /* Resources */,
+				FA76728DB8DDCC91EE1150DE /* [CP] Embed Pods Frameworks */,
+				275F7B942937C3AB005ADCC0 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				275F7B922937C3AB005ADCC0 /* PBXTargetDependency */,
+			);
+			name = "SplitIO-Cocoapods";
+			productName = "SplitIO-Cocoapods";
+			productReference = 275F7B4E2937C2FB005ADCC0 /* SplitIO-Cocoapods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		275F7B632937C2FC005ADCC0 /* SplitIO-CocoapodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 275F7B7B2937C2FD005ADCC0 /* Build configuration list for PBXNativeTarget "SplitIO-CocoapodsTests" */;
+			buildPhases = (
+				75E0C2E91EF87410C9C319DA /* [CP] Check Pods Manifest.lock */,
+				275F7B602937C2FC005ADCC0 /* Sources */,
+				275F7B612937C2FC005ADCC0 /* Frameworks */,
+				275F7B622937C2FC005ADCC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				275F7B662937C2FC005ADCC0 /* PBXTargetDependency */,
+			);
+			name = "SplitIO-CocoapodsTests";
+			productName = "SplitIO-CocoapodsTests";
+			productReference = 275F7B642937C2FC005ADCC0 /* SplitIO-CocoapodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		275F7B6D2937C2FD005ADCC0 /* SplitIO-CocoapodsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 275F7B7E2937C2FD005ADCC0 /* Build configuration list for PBXNativeTarget "SplitIO-CocoapodsUITests" */;
+			buildPhases = (
+				8B966DA1360873C413BE7D0F /* [CP] Check Pods Manifest.lock */,
+				275F7B6A2937C2FD005ADCC0 /* Sources */,
+				275F7B6B2937C2FD005ADCC0 /* Frameworks */,
+				275F7B6C2937C2FD005ADCC0 /* Resources */,
+				EA75B2FEBBF5824185551596 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				275F7B702937C2FD005ADCC0 /* PBXTargetDependency */,
+			);
+			name = "SplitIO-CocoapodsUITests";
+			productName = "SplitIO-CocoapodsUITests";
+			productReference = 275F7B6E2937C2FD005ADCC0 /* SplitIO-CocoapodsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		275F7B842937C3AA005ADCC0 /* SplitIO-Cocoapods-Extensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 275F7B972937C3AB005ADCC0 /* Build configuration list for PBXNativeTarget "SplitIO-Cocoapods-Extensions" */;
+			buildPhases = (
+				AEB6F6ACBCB56DDD6EEAFEC5 /* [CP] Check Pods Manifest.lock */,
+				275F7B812937C3AA005ADCC0 /* Sources */,
+				275F7B822937C3AA005ADCC0 /* Frameworks */,
+				275F7B832937C3AA005ADCC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SplitIO-Cocoapods-Extensions";
+			productName = "SplitIO-Cocoapods-Extensions";
+			productReference = 275F7B852937C3AA005ADCC0 /* SplitIO-Cocoapods-Extensions.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		275F7B462937C2FB005ADCC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					275F7B4D2937C2FB005ADCC0 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					275F7B632937C2FC005ADCC0 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 275F7B4D2937C2FB005ADCC0;
+					};
+					275F7B6D2937C2FD005ADCC0 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 275F7B4D2937C2FB005ADCC0;
+					};
+					275F7B842937C3AA005ADCC0 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 275F7B492937C2FB005ADCC0 /* Build configuration list for PBXProject "SplitIO-Cocoapods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 275F7B452937C2FB005ADCC0;
+			productRefGroup = 275F7B4F2937C2FB005ADCC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				275F7B4D2937C2FB005ADCC0 /* SplitIO-Cocoapods */,
+				275F7B632937C2FC005ADCC0 /* SplitIO-CocoapodsTests */,
+				275F7B6D2937C2FD005ADCC0 /* SplitIO-CocoapodsUITests */,
+				275F7B842937C3AA005ADCC0 /* SplitIO-Cocoapods-Extensions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		275F7B4C2937C2FB005ADCC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275F7B5E2937C2FC005ADCC0 /* LaunchScreen.storyboard in Resources */,
+				275F7B5B2937C2FC005ADCC0 /* Assets.xcassets in Resources */,
+				275F7B592937C2FB005ADCC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275F7B622937C2FC005ADCC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275F7B6C2937C2FD005ADCC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275F7B832937C3AA005ADCC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275F7B8F2937C3AB005ADCC0 /* Assets.xcassets in Resources */,
+				275F7B8D2937C3AA005ADCC0 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75E0C2E91EF87410C9C319DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SplitIO-CocoapodsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7633811C6EC009FD8544E1A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SplitIO-Cocoapods-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B966DA1360873C413BE7D0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SplitIO-Cocoapods-SplitIO-CocoapodsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEB6F6ACBCB56DDD6EEAFEC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SplitIO-Cocoapods-SplitIO-Cocoapods-Extensions-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA75B2FEBBF5824185551596 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SplitIO-Cocoapods-SplitIO-CocoapodsUITests/Pods-SplitIO-Cocoapods-SplitIO-CocoapodsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SplitIO-Cocoapods-SplitIO-CocoapodsUITests/Pods-SplitIO-Cocoapods-SplitIO-CocoapodsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SplitIO-Cocoapods-SplitIO-CocoapodsUITests/Pods-SplitIO-Cocoapods-SplitIO-CocoapodsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA76728DB8DDCC91EE1150DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SplitIO-Cocoapods/Pods-SplitIO-Cocoapods-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SplitIO-Cocoapods/Pods-SplitIO-Cocoapods-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SplitIO-Cocoapods/Pods-SplitIO-Cocoapods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		275F7B4A2937C2FB005ADCC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275F7B562937C2FB005ADCC0 /* ViewController.swift in Sources */,
+				275F7B522937C2FB005ADCC0 /* AppDelegate.swift in Sources */,
+				275F7B542937C2FB005ADCC0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275F7B602937C2FC005ADCC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275F7B692937C2FC005ADCC0 /* SplitIO_CocoapodsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275F7B6A2937C2FD005ADCC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275F7B732937C2FD005ADCC0 /* SplitIO_CocoapodsUITests.swift in Sources */,
+				275F7B752937C2FD005ADCC0 /* SplitIO_CocoapodsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275F7B812937C3AA005ADCC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275F7B8A2937C3AA005ADCC0 /* MessagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		275F7B662937C2FC005ADCC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 275F7B4D2937C2FB005ADCC0 /* SplitIO-Cocoapods */;
+			targetProxy = 275F7B652937C2FC005ADCC0 /* PBXContainerItemProxy */;
+		};
+		275F7B702937C2FD005ADCC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 275F7B4D2937C2FB005ADCC0 /* SplitIO-Cocoapods */;
+			targetProxy = 275F7B6F2937C2FD005ADCC0 /* PBXContainerItemProxy */;
+		};
+		275F7B922937C3AB005ADCC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 275F7B842937C3AA005ADCC0 /* SplitIO-Cocoapods-Extensions */;
+			targetProxy = 275F7B912937C3AB005ADCC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		275F7B572937C2FB005ADCC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				275F7B582937C2FB005ADCC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		275F7B5C2937C2FC005ADCC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				275F7B5D2937C2FC005ADCC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		275F7B8B2937C3AA005ADCC0 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				275F7B8C2937C3AA005ADCC0 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		275F7B762937C2FD005ADCC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		275F7B772937C2FD005ADCC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		275F7B792937C2FD005ADCC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 902AF78CE7FE3952FCCB509B /* Pods-SplitIO-Cocoapods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5PT8CRKKZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SplitIO-Cocoapods/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.SplitIO-Cocoapods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		275F7B7A2937C2FD005ADCC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0678FCA69F7168494A7E188A /* Pods-SplitIO-Cocoapods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5PT8CRKKZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SplitIO-Cocoapods/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.SplitIO-Cocoapods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		275F7B7C2937C2FD005ADCC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6F05EBC76CE087C4A2A33C /* Pods-SplitIO-CocoapodsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5PT8CRKKZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.SplitIO-CocoapodsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitIO-Cocoapods.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SplitIO-Cocoapods";
+			};
+			name = Debug;
+		};
+		275F7B7D2937C2FD005ADCC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57A165FF7E7D12AD9EAE9934 /* Pods-SplitIO-CocoapodsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5PT8CRKKZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.SplitIO-CocoapodsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitIO-Cocoapods.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SplitIO-Cocoapods";
+			};
+			name = Release;
+		};
+		275F7B7F2937C2FD005ADCC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D18484B114012A61331C3A95 /* Pods-SplitIO-Cocoapods-SplitIO-CocoapodsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5PT8CRKKZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.SplitIO-CocoapodsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SplitIO-Cocoapods";
+			};
+			name = Debug;
+		};
+		275F7B802937C2FD005ADCC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AB8FDF38F62BADF34A3494 /* Pods-SplitIO-Cocoapods-SplitIO-CocoapodsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5PT8CRKKZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.SplitIO-CocoapodsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SplitIO-Cocoapods";
+			};
+			name = Release;
+		};
+		275F7B952937C3AB005ADCC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CB9832F6E60A2EBA873FEA2 /* Pods-SplitIO-Cocoapods-SplitIO-Cocoapods-Extensions.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5PT8CRKKZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SplitIO-Cocoapods-Extensions/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SplitIO-Cocoapods-Extensions";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.SplitIO-Cocoapods.SplitIO-Cocoapods-Extensions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		275F7B962937C3AB005ADCC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F1053EE14FEA00E14DE5FC5 /* Pods-SplitIO-Cocoapods-SplitIO-Cocoapods-Extensions.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5PT8CRKKZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SplitIO-Cocoapods-Extensions/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SplitIO-Cocoapods-Extensions";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.SplitIO-Cocoapods.SplitIO-Cocoapods-Extensions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		275F7B492937C2FB005ADCC0 /* Build configuration list for PBXProject "SplitIO-Cocoapods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275F7B762937C2FD005ADCC0 /* Debug */,
+				275F7B772937C2FD005ADCC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		275F7B782937C2FD005ADCC0 /* Build configuration list for PBXNativeTarget "SplitIO-Cocoapods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275F7B792937C2FD005ADCC0 /* Debug */,
+				275F7B7A2937C2FD005ADCC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		275F7B7B2937C2FD005ADCC0 /* Build configuration list for PBXNativeTarget "SplitIO-CocoapodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275F7B7C2937C2FD005ADCC0 /* Debug */,
+				275F7B7D2937C2FD005ADCC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		275F7B7E2937C2FD005ADCC0 /* Build configuration list for PBXNativeTarget "SplitIO-CocoapodsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275F7B7F2937C2FD005ADCC0 /* Debug */,
+				275F7B802937C2FD005ADCC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		275F7B972937C3AB005ADCC0 /* Build configuration list for PBXNativeTarget "SplitIO-Cocoapods-Extensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275F7B952937C3AB005ADCC0 /* Debug */,
+				275F7B962937C3AB005ADCC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 275F7B462937C2FB005ADCC0 /* Project object */;
+}

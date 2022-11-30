@@ -1,0 +1,6 @@
+framework module Pods_SplitIO_Cocoapods_SplitIO_Cocoapods_Extensions {
+  umbrella header "Pods-SplitIO-Cocoapods-SplitIO-Cocoapods-Extensions-umbrella.h"
+
+  export *
+  module * { export * }
+}
